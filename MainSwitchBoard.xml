@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="onRibbonLoad">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="ch30_t_Messages" label="Main SwitchBoard">
+        <group id="ch30_g_Messages" label="Show">
+          <button id="ch30_b_Message" label="Show SwitchBoard" imageMso="GroupTasksLayout" size="large" onAction="ShowSwitchBoard" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
