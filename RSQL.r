@@ -1,7 +1,9 @@
 library(RODBC)
 library(readxl)
-tblSqlToSend <- read_excel("C:/Users/tanalan/Desktop/DataMiningTool/tblSqlToSend.xlsx")
-ch <- odbcConnect("PostgreSQL35W")
+# get tblSqlToSend.xlsx from command  "RSQL.bat"
+excel_path <-commandArgs(T)[1]
+tblSqlToSend <- read_excel(excel_path)
+ch <- odbcConnect("PostgreSQL_wechat")
 # Currying
 SendSql <- function(ch,sSql){
   function(sSql) {
