@@ -1,7 +1,12 @@
 library(RODBC)
 library(readxl)
 library(ggplot2)
-ch <- odbcConnect("PostgreSQL35W")
+## read envirment parameter
+global_excel_path <-commandArgs(T)[1]
+tblGlobalVar <- read_excel(global_excel_path)
+## connection channel
+dsn <- tblGlobalVar$Var[tblGlobalVar$VarName == 'Rdsn']
+ch <- odbcConnect(dsn) #"PostgreSQL35W"
 ## function defination 
 # Currying
 SendSql <- function(ch,sSql){
@@ -19,8 +24,9 @@ str_eval <- function(str){
 }
 
 ## start program
-excel_path <-commandArgs(T)[1]
-tblCallParameter <- read_excel(excel_path)
+Rworkdir_path = tblGlobalVar$Var[tblGlobalVar$VarName == 'RWorkDir']
+R_CallParameter_excel_path <- paste(c(Rworkdir_path,'Parameter\\tblCallParameter.xlsx'), collapse="\\")
+tblCallParameter <- read_excel(R_CallParameter_excel_path)
 
 # get dataset
 sqlReadTable <- tblCallParameter$Parameter[tblCallParameter$Parameter_Name == 'DataFrameSQL']
@@ -31,7 +37,7 @@ odbcClose(ch)
 str_ggplot <- tblCallParameter$Parameter[tblCallParameter$Parameter_Name == 'ggplot_function']
 
 # save ploting image
-folder <- "C:\\Users\\tanalan\\Documents\\Establish Table\\Media\\Image\\"
+folder <- paste(c(Rworkdir_path,"Media\\Image"), collapse = "\\")
 filename <- paste(c(tblCallParameter$Parameter[tblCallParameter$Parameter_Name == 'ImageID'],"png"), collapse = ".")
 filepath <- paste(c(folder, filename), collapse = "\\")
 png(filepath,width = 1200,height = 880)
