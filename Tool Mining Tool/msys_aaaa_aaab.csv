@@ -1,0 +1,158 @@
+msys_aaaa_aaaa.aaa,aaa,CHAR,14,,,,Table ID,表ID,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aab,aab,VARCHAR,50,,,,Source Of Data,数据来源,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aac,aac,VARCHAR,200,,,,Original Table Name,原始表名,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aad,aad,VARCHAR,50,,,,Created By,表结构创建人,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aae,aae,DATE,,,,,Created On,创建时间,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aaf,aaf,CHAR,3,,,,Primary Key,主键字段,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aag,aag,CHAR,3,,,,No 1 Composite Index,第一复合索引字段,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aah,aah,CHAR,3,,,,No 2 Composite Index,第二复合索引字段,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aai,aai,CHAR,3,,,,No 3 Composite Index,第三复合索引字段,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aaj,aaj,VARCHAR,200,,,,Table Description,表内容描述,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aak,aak,SMALLINT,,,,,Table Layer,表的层级,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aal,aal,VARCHAR,100,,,,Chinese Name,中文释义,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aam,aam,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aan,aan,BOOLEAN,,,,,Select,选择,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aao,aao,BOOLEAN,,,,,Created,已创建,,,msys_aaaa_aaaa
+msys_aaaa_aaaa.aap,aap,BOOLEAN,,,,,Imported,已导入,,,msys_aaaa_aaaa
+msys_aaaa_aaab.aaa,aaa,CHAR,18,,,,Field ID,字段ID,,,msys_aaaa_aaab
+msys_aaaa_aaab.aab,aab,CHAR,3,,,,Field Code,字段代码,,,msys_aaaa_aaab
+msys_aaaa_aaab.aac,aac,VARCHAR,20,,,,Field Type,字段类型,,,msys_aaaa_aaab
+msys_aaaa_aaab.aad,aad,CHAR,10,,,,Field Width,字段宽度,,,msys_aaaa_aaab
+msys_aaaa_aaab.aae,aae,VARCHAR,10,,,,Precision,精度,,,msys_aaaa_aaab
+msys_aaaa_aaab.aaf,aaf,VARCHAR,20,,,,Index Type,索引类型,,,msys_aaaa_aaab
+msys_aaaa_aaab.aag,aag,CHAR,1,,,,Index Seq,索引顺序,,,msys_aaaa_aaab
+msys_aaaa_aaab.aah,aah,VARCHAR,50,,,,English Name,英文释义,,,msys_aaaa_aaab
+msys_aaaa_aaab.aai,aai,VARCHAR,50,,,,Chinese Name,中文释义,,,msys_aaaa_aaab
+msys_aaaa_aaab.aaj,aaj,CHAR,18,,,,Referance Field,字段来源,,,msys_aaaa_aaab
+msys_aaaa_aaab.aak,aak,CHAR,50,,,,Constraint,约束,,,msys_aaaa_aaab
+msys_aaaa_aaab.aal,aal,CHAR,14,,,,Table ID,表ID,msys_aaaa_aaaa.aaa,,msys_aaaa_aaab
+msys_aaaa_aaac.aaa,aaa,SMALLINT,,,,,Server Type ID,数据库类型ID,,,msys_aaaa_aaac
+msys_aaaa_aaac.aab,aab,VARCHAR,20,,,,Server Type,数据库类型,,,msys_aaaa_aaac
+msys_aaaa_aaad.aaa,aaa,SMALLINT,,,,,Server Type ID,数据库类型ID,msys_aaaa_aaac.aaa,,msys_aaaa_aaad
+msys_aaaa_aaad.aab,aab,VARCHAR,10,,,,SQL Item,SQL选项,,,msys_aaaa_aaad
+msys_aaaa_aaad.aac,aac,VARCHAR,50,,,,SQL Word,SQL关键字,,,msys_aaaa_aaad
+msys_aaaa_aaae.aaa,aaa,VARCHAR,20,,,,String ID,字符串ID,,,msys_aaaa_aaae
+msys_aaaa_aaae.aab,aab,SMALLINT,,,,,Server Type ID,数据库类型ID,msys_aaaa_aaac.aaa,,msys_aaaa_aaae
+msys_aaaa_aaae.aac,aac,VARCHAR,250,,,,Connect String,链接字符串,,,msys_aaaa_aaae
+msys_aaaa_aaaf.aaa,aaa,CHAR,11,,,,Window Control ID,窗体控件ID,,,msys_aaaa_aaaf
+msys_aaaa_aaaf.aab,aab,VARCHAR,30,,,,Chinese Name,中文释义,,,msys_aaaa_aaaf
+msys_aaaa_aaaf.aac,aac,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaaf
+msys_aaaa_aaaf.aad,aad,CHAR,3,,,,WinRpt Control Type ID,窗体报表控件类型ID,msys_aaaa_aaat.aaa,,msys_aaaa_aaaf
+msys_aaaa_aaaf.aae,aae,CHAR,7,,,,Window ID,窗体ID,msys_aaaa_aaar.aaa,,msys_aaaa_aaaf
+msys_aaaa_aaag.aaa,aaa,CHAR,14,,,,View ID,视图ID,,,msys_aaaa_aaag
+msys_aaaa_aaag.aab,aab,VARCHAR,100,,,,Created By,视图创建人,,,msys_aaaa_aaag
+msys_aaaa_aaag.aac,aac,DATE,,,,,Created On,视图创建时间,,,msys_aaaa_aaag
+msys_aaaa_aaag.aad,aad,VARCHAR,100,,,,Chinese Name,中文释义,,,msys_aaaa_aaag
+msys_aaaa_aaag.aae,aae,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaag
+msys_aaaa_aaag.aaf,aaf,VARCHAR,200,,,,View Description,视图内容描述,,,msys_aaaa_aaag
+msys_aaaa_aaag.aag,aag,TEXT,,,,,View SQL,视图语句,,,msys_aaaa_aaag
+msys_aaaa_aaag.aah,aah,BOOLEAN,,,,,Select,选择,,,msys_aaaa_aaag
+msys_aaaa_aaag.aai,aai,BOOLEAN,,,,,Created,已创建,,,msys_aaaa_aaag
+msys_aaaa_aaah.aaa,aaa,CHAR,7,,,,Role ID,角色ID,,,msys_aaaa_aaah
+msys_aaaa_aaah.aab,aab,VARCHAR,50,,,,Role Name,角色名,,,msys_aaaa_aaah
+msys_aaaa_aaah.aac,aac,VARCHAR,250,,,,Role Description,角色描述,,,msys_aaaa_aaah
+msys_aaaa_aaah.aad,aad,BOOLEAN,,,,,Login,可登入,,,msys_aaaa_aaah
+msys_aaaa_aaah.aae,aae,BOOLEAN,,,,,Create Role,可创建角色,,,msys_aaaa_aaah
+msys_aaaa_aaah.aaf,aaf,VARCHAR,250,,,,Password,密码,,,msys_aaaa_aaah
+msys_aaaa_aaah.aag,aag,BOOLEAN,,,,,Select,选择,,,msys_aaaa_aaah
+msys_aaaa_aaah.aah,aah,BOOLEAN,,,,,Created,已创建,,,msys_aaaa_aaah
+msys_aaaa_aaai.aaa,aaa,VARCHAR,100,,,,User Name,用户名,,,msys_aaaa_aaai
+msys_aaaa_aaai.aab,aab,VARCHAR,250,,,,Password,密码,,,msys_aaaa_aaai
+msys_aaaa_aaai.aac,aac,CHAR,7,,,,Role ID,角色ID,msys_aaaa_aaah.aaa,,msys_aaaa_aaai
+msys_aaaa_aaai.aad,aad,BOOLEAN,,,,,Living,是否存活,,,msys_aaaa_aaai
+msys_aaaa_aaai.aae,aae,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaai.aaf,aaf,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaai.aag,aag,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaai.aah,aah,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaai.aai,aai,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaai.aaj,aaj,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaai.aak,aak,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaai.aal,aal,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaai
+msys_aaaa_aaaj.aaa,aaa,CHAR,18,,,,Field ID,字段ID,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aab,aab,CHAR,3,,,,Field Code,字段代码,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aac,aac,VARCHAR,250,,,,SELECT,选择已有字段,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aad,aad,VARCHAR,250,,,,AS,字段释义,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aae,aae,VARCHAR,250,,,,Chinese Table Name And Field,中文表名和中文字段,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aaf,aaf,VARCHAR,250,,,,English Table Name And Field,英文表名和英文字段,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aag,aag,CHAR,14,,,,Selected Table,被选择的表,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aah,aah,CHAR,3,,,,Selected Field,被选择的字段,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aai,aai,VARCHAR,100,,,,Function,函数,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aaj,aaj,VARCHAR,100,,,,Group,聚合,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aak,aak,SMALLINT,,,,,Order,排序,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aal,aal,BOOLEAN,,,,,Show,显示,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aam,aam,VARCHAR,250,,,,WHERE_HAVING,条件,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aan,aan,VARCHAR,250,,,,OR,或,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aao,aao,VARCHAR,250,,,,OR2,或2,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aap,aap,VARCHAR,250,,,,OR3,或3,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aaq,aaq,VARCHAR,250,,,,OR4,或4,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aar,aar,VARCHAR,250,,,,OR5,或5,,,msys_aaaa_aaaj
+msys_aaaa_aaaj.aas,aas,CHAR,14,,,,View ID,视图ID,msys_aaaa_aaag.aaa,,msys_aaaa_aaaj
+msys_aaaa_aaak.aaa,aaa,CHAR,11,,,,Report Control ID,报表控件ID,,,msys_aaaa_aaak
+msys_aaaa_aaak.aab,aab,VARCHAR,30,,,,Chinese Name,选中,,,msys_aaaa_aaak
+msys_aaaa_aaak.aac,aac,VARCHAR,100,,,,English Name,已创建,,,msys_aaaa_aaak
+msys_aaaa_aaak.aad,aad,CHAR,3,,,,WinRpt Control Type ID,窗体报表控件类型ID,msys_aaaa_aaat.aaa,,msys_aaaa_aaak
+msys_aaaa_aaak.aae,aae,CHAR,7,,,,Report ID,报告ID,msys_aaaa_aaay.aaa,,msys_aaaa_aaak
+msys_aaaa_aaal.aaa,aaa,SMALLINT,,,,,Ribbon ID,功能区ID,,,msys_aaaa_aaal
+msys_aaaa_aaal.aab,aab,VARCHAR,50,,,,Ribbon Name,功能区名称,,,msys_aaaa_aaal
+msys_aaaa_aaal.aac,aac,TEXT,,,,,Ribbon XML,功能区XML,,,msys_aaaa_aaal
+msys_aaaa_aaam.aaa,aaa,CHAR,7,,,,Tab ID,选项卡ID,,,msys_aaaa_aaam
+msys_aaaa_aaam.aab,aab,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaam
+msys_aaaa_aaam.aac,aac,VARCHAR,100,,,,Chinese Name,中文释义,,,msys_aaaa_aaam
+msys_aaaa_aaam.aad,aad,SMALLINT,,,,,Ribbon ID,功能区ID,msys_aaaa_aaal.aaa,,msys_aaaa_aaam
+msys_aaaa_aaan.aaa,aaa,CHAR,11,,,,Group ID,组ID,,,msys_aaaa_aaan
+msys_aaaa_aaan.aab,aab,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaan
+msys_aaaa_aaan.aac,aac,VARCHAR,100,,,,Chinese Name,中文释义,,,msys_aaaa_aaan
+msys_aaaa_aaan.aad,aad,CHAR,7,,,,Tab ID,选项卡ID,msys_aaaa_aaam.aaa,,msys_aaaa_aaan
+msys_aaaa_aaao.aaa,aaa,CHAR,15,,,,Control ID,控件ID,,,msys_aaaa_aaao
+msys_aaaa_aaao.aab,aab,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaao
+msys_aaaa_aaao.aac,aac,VARCHAR,100,,,,Chinese Name,中文释义,,,msys_aaaa_aaao
+msys_aaaa_aaao.aad,aad,CHAR,11,,,,Group ID,组ID,msys_aaaa_aaan.aaa,,msys_aaaa_aaao
+msys_aaaa_aaao.aae,aae,VARCHAR,250,,,,Control Type,控件类型,,,msys_aaaa_aaao
+msys_aaaa_aaao.aaf,aaf,BOOLEAN,,,,,Use,功能使用,,,msys_aaaa_aaao
+msys_aaaa_aaao.aag,aag,VARCHAR,250,,,,ImageMsoID,图标ID,msys_aaaa_aaaq.aaa,,msys_aaaa_aaao
+msys_aaaa_aaao.aah,aah,CHAR,7,,,,Form or Report ID,窗体或报表ID,msys_aaaa_aaar.aaa,,msys_aaaa_aaao
+msys_aaaa_aaap.aaa,aaa,VARCHAR,50,,,,Signature ID,签名ID,,,msys_aaaa_aaap
+msys_aaaa_aaap.aab,aab,VARCHAR,30,,,,Control Type,控件类型,,,msys_aaaa_aaap
+msys_aaaa_aaap.aac,aac,VARCHAR,30,,,,Callback Function Type,回调函数类型,,,msys_aaaa_aaap
+msys_aaaa_aaap.aad,aad,TEXT,,,,,Signature,签名,,,msys_aaaa_aaap
+msys_aaaa_aaaq.aaa,aaa,VARCHAR,250,,,,ImageMsoID,图标ID,,,msys_aaaa_aaaq
+msys_aaaa_aaar.aaa,aaa,CHAR,7,,,,Window ID,窗体ID,,,msys_aaaa_aaar
+msys_aaaa_aaar.aab,aab,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaar
+msys_aaaa_aaar.aac,aac,VARCHAR,100,,,,Chinese Name,中文释义,,,msys_aaaa_aaar
+msys_aaaa_aaar.aad,aad,VARCHAR,250,,,,Description,功能描述,,,msys_aaaa_aaar
+msys_aaaa_aaar.aae,aae,CHAR,14,,,,Data Source ID,数据源ID,,,msys_aaaa_aaar
+msys_aaaa_aaas.aaa,aaa,CHAR,17,,,,Callback Function ID,回调函数ID,,,msys_aaaa_aaas
+msys_aaaa_aaas.aab,aab,VARCHAR,50,,,,Signature ID,签名ID,msys_aaaa_aaap.aaa,,msys_aaaa_aaas
+msys_aaaa_aaas.aac,aac,VARCHAR,200,,,,Callback Function Name,回调函数名,,,msys_aaaa_aaas
+msys_aaaa_aaas.aad,aad,CHAR,15,,,,Control ID,控件ID,msys_aaaa_aaao.aaa,,msys_aaaa_aaas
+msys_aaaa_aaat.aaa,aaa,CHAR,3,,,,WinRpt Control Type ID,窗体报表控件类型ID,,,msys_aaaa_aaat
+msys_aaaa_aaat.aab,aab,VARCHAR,50,,,,WinRpt Control Type,窗体报表控件类型,,,msys_aaaa_aaat
+msys_aaaa_aaau.aaa,aaa,CHAR,7,,,,Role ID,角色ID,msys_aaaa_aaah.aaa,,msys_aaaa_aaau
+msys_aaaa_aaau.aab,aab,CHAR,15,,,,Control ID,控件ID,msys_aaaa_aaao.aaa,,msys_aaaa_aaau
+msys_aaaa_aaau.aac,aac,BOOLEAN,,,,,Apply,应用,,,msys_aaaa_aaau
+msys_aaaa_aaau.aad,aad,VARCHAR,100,,,,Control Name,控件释义,,,msys_aaaa_aaau
+msys_aaaa_aaav.aaa,aaa,CHAR,7,,,,Role ID,角色ID,msys_aaaa_aaah.aaa,,msys_aaaa_aaav
+msys_aaaa_aaav.aab,aab,CHAR,14,,,,Table ID,表ID,msys_aaaa_aaaa.aaa,,msys_aaaa_aaav
+msys_aaaa_aaav.aac,aac,BOOLEAN,,,,,ALL,ALL,,,msys_aaaa_aaav
+msys_aaaa_aaav.aad,aad,BOOLEAN,,,,,INSERT,INSERT,,,msys_aaaa_aaav
+msys_aaaa_aaav.aae,aae,BOOLEAN,,,,,SELECT,SELECT,,,msys_aaaa_aaav
+msys_aaaa_aaav.aaf,aaf,BOOLEAN,,,,,UPDATE,UPDATE,,,msys_aaaa_aaav
+msys_aaaa_aaav.aag,aag,BOOLEAN,,,,,DELETE,DELETE,,,msys_aaaa_aaav
+msys_aaaa_aaav.aah,aah,BOOLEAN,,,,,TRIGGER,TRIGGER,,,msys_aaaa_aaav
+msys_aaaa_aaav.aai,aai,VARCHAR,100,,,,Table Note,表释义,,,msys_aaaa_aaav
+msys_aaaa_aaaw.aaa,aaa,CHAR,7,,,,Role ID,角色ID,msys_aaaa_aaah.aaa,,msys_aaaa_aaaw
+msys_aaaa_aaaw.aab,aab,CHAR,18,,,,Field ID,字段ID,msys_aaaa_aaab.aaa,,msys_aaaa_aaaw
+msys_aaaa_aaaw.aac,aac,BOOLEAN,,,,,ALL,ALL,,,msys_aaaa_aaaw
+msys_aaaa_aaaw.aad,aad,BOOLEAN,,,,,INSERT,INSERT,,,msys_aaaa_aaaw
+msys_aaaa_aaaw.aae,aae,BOOLEAN,,,,,SELECT,SELECT,,,msys_aaaa_aaaw
+msys_aaaa_aaaw.aaf,aaf,BOOLEAN,,,,,UPDATE,UPDATE,,,msys_aaaa_aaaw
+msys_aaaa_aaaw.aag,aag,VARCHAR,100,,,,Field Name,字段释义,,,msys_aaaa_aaaw
+msys_aaaa_aaax.aaa,aaa,VARCHAR,100,,,,User Name,用户名,msys_aaaa_aaai.aaa,,msys_aaaa_aaax
+msys_aaaa_aaax.aab,aab,TIMESTAMP,,,,,Date Time,日期时间,,,msys_aaaa_aaax
+msys_aaaa_aaax.aac,aac,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaax
+msys_aaaa_aaax.aad,aad,CHAR,1,,,,Redundancy,冗余,,,msys_aaaa_aaax
+msys_aaaa_aaay.aaa,aaa,CHAR,7,,,,Report ID,报告ID,,,msys_aaaa_aaay
+msys_aaaa_aaay.aab,aab,VARCHAR,100,,,,English Name,英文释义,,,msys_aaaa_aaay
+msys_aaaa_aaay.aac,aac,VARCHAR,100,,,,Chinese Name,中文释义,,,msys_aaaa_aaay
+msys_aaaa_aaay.aad,aad,VARCHAR,250,,,,Description,功能描述,,,msys_aaaa_aaay
+msys_aaaa_aaay.aae,aae,CHAR,14,,,,Data Source ID,数据源ID,,,msys_aaaa_aaay

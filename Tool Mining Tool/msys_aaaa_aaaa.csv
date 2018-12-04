@@ -1,0 +1,25 @@
+msys_aaaa_aaaa,,tblTableName,谭夫有,2018/8/10,aaa,,,,表的字典,0,表名,Table Name,t,t,t
+msys_aaaa_aaab,,tblTableStruction,谭夫有,2018/8/10,aaa,,,,表结构字典,1,表结构,Table Struction,t,t,t
+msys_aaaa_aaac,,tblServerType,谭夫有,2018/8/10,aaa,,,,数据库类型,0,数据库类型,Server Type,f,t,t
+msys_aaaa_aaad,,tblSqlLangrageOfServerType,谭夫有,2018/8/10,,aaa,aab,,不同数据库的SQL语句,1,不同数据库的SQL语句,SQL Langrage Of Server Type,f,t,t
+msys_aaaa_aaae,,tblConnectString,谭夫有,2018/8/10,aaa,,,,数据库库连接字符串,1,连接字符串,Connect String,f,t,t
+msys_aaaa_aaaf,,,谭夫有,2018/9/18,aaa,,,,在窗体的中使用的非绑定控件,1,窗体控件,Window Control,f,t,f
+msys_aaaa_aaag,,tblViewName,谭夫有,2018/8/13,aaa,,,,视图名称和定义,0,视图名,Query Name,f,t,t
+msys_aaaa_aaah,,tblRole,谭夫有,2018/8/13,aaa,,,,角色定义,0,角色定义,Role,f,t,t
+msys_aaaa_aaai,,tblUser,谭夫有,2018/8/15,aaa,,,,系统用户表,1,用户,User,f,t,t
+msys_aaaa_aaaj,,tblQueryDesign,谭夫有,2018/8/15,aaa,,,,查询(视图）设计,1,查询设计,Query Design,f,t,t
+msys_aaaa_aaak,,,谭夫有,2018/9/18,aaa,,,,报表中的非绑定控件,1,报表控件,Report Control,f,t,f
+msys_aaaa_aaal,,USysRibbons,谭夫有,2018/8/15,aaa,,,,功能区定义,0,功能区,Ribbon,f,t,t
+msys_aaaa_aaam,,tblTabsInRibbon,谭夫有,2018/8/15,aaa,,,,选项卡定义,1,选项卡定义,Tabs In Ribbon,f,t,t
+msys_aaaa_aaan,,tblGroupsInTab,谭夫有,2018/8/15,aaa,,,,功能区组的定义,2,组定义,Groups In Tab,f,t,t
+msys_aaaa_aaao,,tblControlsInGroup,谭夫有,2018/8/15,aaa,,,,控件定义,3,控件定义,Controls In Group,f,t,t
+msys_aaaa_aaap,,tblCallbackSignature,谭夫有,2018/8/15,aaa,,,,回调函数签名字典,0,回调函数签名,Callback Signature,f,t,t
+msys_aaaa_aaaq,,tblImageMso,谭夫有,2018/8/15,aaa,,,,控件图标,0,图标,ImageMso,f,t,t
+msys_aaaa_aaar,,tblWindows,谭夫有,2018/8/15,aaa,,,,所有的窗口,0,窗口,Window,f,t,t
+msys_aaaa_aaas,,tblCallbackFunction,谭夫有,2018/8/15,aaa,,,,控件的回调函数定义,4,回调函数定义,Callback Function In Controller,f,t,t
+msys_aaaa_aaat,,,谭夫有,2018/9/18,aaa,,,,主要用于非绑定控件的字典,0,窗体报表控件字典,Win Rpt Control Dist,f,t,t
+msys_aaaa_aaau,,tblRoleControlManagement,谭夫有,2018/8/15,,,,,控件权限管理,4,控件权限管理,Role Controller Management,f,t,t
+msys_aaaa_aaav,,tblRoleTableManagement,谭夫有,2018/8/15,,,,,表格权限管理,1,表格权限管理,Role Table Management,f,t,t
+msys_aaaa_aaaw,,tblRoleColumnManagement,谭夫有,2018/8/15,aaa,,,,字段权限管理,2,字段权限管理,Role Field Management,f,t,t
+msys_aaaa_aaax,,tblLog,谭夫有,2018/8/15,,,,,登陆记录,2,登陆记录,Log,f,t,t
+msys_aaaa_aaay,,,谭夫有,2018/9/14,aaa,,,,所有的报表注册,0,报表,Report,f,t,t
