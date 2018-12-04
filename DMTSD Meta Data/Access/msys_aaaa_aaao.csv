@@ -1,0 +1,8 @@
+aaa,aab,aac,aad,aae,aaf,aag,aah
+ctl_AAA_AAA_AAA,Show SwitchBoard,显示主界面,grp_AAA_AAA,button,t,MasterDocumentShow,frm_SAA
+ctl_AAA_AAB_AAA,Generate APP,产生APP,grp_AAA_AAB,button,t,MicrosoftAccess,
+ctl_AAA_AAC_AAA,About…,关于…,grp_AAA_AAC,button,t,DocumentTemplate,frm_SAB
+ctl_AAA_AAC_AAB,Help,帮助…,grp_AAA_AAC,button,t,Help,frm_SAC
+ctl_ABA_AAA_AAA,Chart,绘图,grp_ABA_AAA,button,t,Chart3DBarChart,frm_AAD
+ctl_ABC_AAA_AAA,About…,关于…,grp_ABC_AAA,button,t,Help,frm_AAC
+ctl_ABB_AAA_AAA,Database,选择数据库,grp_ABB_AAA,button,t,DatabaseSqlServer,frm_SAD

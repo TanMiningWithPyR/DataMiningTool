@@ -1,0 +1,81 @@
+aaa,aab,aac,aad,aae,aaf,aag,aah,aai,aaj,aak,aal,aam,aan,aao,aap
+dict_aaaa_aaah,迅达内部,产品安装地点,谭夫有,2017-09-07,aaa,,,,每个产品的安装地点,3,产品安装地点,product_location,f,t,t
+dict_aaaa_aaaj,迅达内部,产品基本参数,谭夫有,2017-09-12,aaa,,,,产品的主要参数,3,产品基本参数,product_basic_parameter,f,t,t
+dict_aaaa_aaam,书,电梯动力系统分类,谭夫有,2018-04-03,aaa,,,,电梯动力技术的分类,0,动力系统分类,energy_system_classification,f,t,t
+dict_aaaa_aaae,书,电梯组件,谭夫有,2017-09-06,aaa,,,,各大部件下面的组件,1,电梯组件,elevator_module,f,t,t
+msys_aaaa_aaab,,tblTableStruction,谭夫有,2018-08-10,aaa,,,,表结构字典,1,表结构,Table Struction,t,t,t
+oper_aaaa_aaab,迅达内部,衍生表,谭夫有,2018-06-25,aaa,,,,上次CBK时间和本次CBK时间,4,连续的CBK,successive_callback,f,t,t
+dict_aaaa_aaag,书,电梯极限加速度,谭夫有,2017-09-07,aaa,,,,不同的速度下的极限加速度,0,电梯极限加速度,elevator_limit_acceleration,f,t,t
+dict_aaaa_aaaa,互联网,产品分类,谭夫有,2017-09-06,aaa,aaa,aab,,迅达一共有四大类产品,0,产品分类,products_category,f,t,t
+dict_aaaa_aaab,互联网,产品使用范围,谭夫有,2017-09-06,aaa,,,,主要是安装在哪里,0,产品使用范围,facilities,f,t,t
+dict_aaaa_aabc,迅达内部,RMP_LANG,谭夫有,2018-05-17,aaa,,,,RMP的语言,0,RMP的语言,rmp_language,f,t,t
+dict_aaaa_aaak,书,电梯用途分类,谭夫有,2018-04-03,aaa,,,,电梯的用途分类,0,电梯用途分类,elevator_use_classification,f,t,t
+dict_aaaa_aaal,书,电梯速度分类,谭夫有,2018-04-03,aaa,,,,按速度分类电梯,0,电梯速度分类,elevator_speed_classification,f,t,t
+dict_aaaa_aaao,书,电梯的拖动形式,谭夫有,2018-04-04,aaa,,,,曳引或者是导轨齿轮齿条,0,电梯的拖动形式,the_drag_form_of_the_elevator,f,t,t
+dict_aaaa_aaan,书,变速系统,谭夫有,2018-04-04,aaa,,,,驱动的变速系统,0,变速系统,speed_control_system,f,t,t
+dict_aaaa_aaap,迅达内部,召回分类SCS A Group,谭夫有,2018-04-10,aaa,,,,Callback 1 and Callback 2,0,技术召回和非技术回召,techincal_and_not_technical,f,t,t
+dict_aaaa_aaay,迅达内部,EQUIPMENT_TYPE,谭夫有,2018-04-26,aaa,,,,SAP EQUIPMENT TYPE,0,SAP中的设备类型,equipment_type_in_sap,f,t,t
+dict_aaaa_aaba,迅达内部,KG大分公司,谭夫有,2018-04-26,aaa,,,,KG大分公司的描述,1,KG大分公司,kg,f,t,t
+dict_aaaa_aaar,迅达内部,召回组件分类SCS B Group,谭夫有,2018-04-10,aaa,,,,组件分类代码,0,组件分类代码,condition_and_defective_component_group_code,f,t,t
+dict_aaaa_aabb,迅达内部,SalesOffice,谭夫有,2018-04-26,aaa,,,,销售办公室,1,销售办公室,sales_office,f,t,t
+dict_aaaa_aaax,迅达内部,SAP_SYS,谭夫有,2018-04-25,aaa,,,,迅达的SAP系统分类,0,SAP系统分类,sap_system,f,t,t
+dict_aaaa_aaaz,迅达内部,BUKRS,谭夫有,2018-04-26,aaa,,,,SAP中的公司代码,0,SAP公司代码,sap_bukrs,f,t,t
+msys_aaaa_aaaa,,tblTableName,谭夫有,2018-08-10,aaa,,,,表的字典,0,表名,Table Name,t,t,t
+dict_aaaa_aaad,书,电梯五大部件,谭夫有,2017-09-06,aaa,,,,电梯的五大部件,0,电梯五大部件,elevator_unit,f,t,t
+dict_aaaa_aaaq,迅达内部,召回代码SCS code A,谭夫有,2018-04-10,aaa,,,,召回原因,1,召回原因代码,callback_reason,f,t,t
+dict_aaaa_aaaf,书,电梯智能功能,谭夫有,2017-09-07,aaa,,,,一些会影响电梯寿命的特殊节能功能，一般是选装,0,电梯智能功能,elevator_function,f,t,t
+dict_aaaa_aaac,迅达内部,Product_Line_NI,谭夫有,2017-09-06,aaa,,,,迅达的新安装线,1,新装产品线,product_line_ni,f,t,f
+dict_aaaa_aabi,互联网,Country Codes List,谭夫有,2018-05-17,aaa,,,,国家编码 ISO,0,国家编码,country_codes_list,f,t,t
+oper_aaaa_aaai,迅达内部,衍生表,谭夫有,2018-07-23,,,,,一段时间内运行的时间,3,电梯运行时间,trip_time,f,t,t
+msys_aaaa_aaal,,USysRibbons,谭夫有,2018-08-15,aaa,,,,功能区定义,0,功能区,Ribbon,f,t,t
+msys_aaaa_aaah,,tblRole,谭夫有,2018-08-13,aaa,,,,角色定义,0,角色定义,Role,f,t,t
+msys_aaaa_aaai,,tblUser,谭夫有,2018-08-15,aaa,,,,系统用户表,1,用户,User,f,t,t
+msys_aaaa_aaaq,,tblImageMso,谭夫有,2018-08-15,aaa,,,,控件图标,0,图标,ImageMso,f,t,t
+msys_aaaa_aaar,,tblWindows,谭夫有,2018-08-15,aaa,,,,所有的窗口,0,窗口,Window,f,t,t
+msys_aaaa_aaat,,,谭夫有,2018-09-18,aaa,,,,主要用于非绑定控件的字典,0,窗体报表控件字典,Win Rpt Control Dist,f,t,t
+msys_aaaa_aaam,,tblTabsInRibbon,谭夫有,2018-08-15,aaa,,,,选项卡定义,1,选项卡定义,Tabs In Ribbon,f,t,t
+msys_aaaa_aaap,,tblCallbackSignature,谭夫有,2018-08-15,aaa,,,,回调函数签名字典,0,回调函数签名,Callback Signature,f,t,t
+msys_aaaa_aaay,,,谭夫有,2018-09-14,aaa,,,,所有的报表注册,0,报表,Report,f,t,t
+msys_aaaa_aaac,,tblServerType,谭夫有,2018-08-10,aaa,,,,数据库类型,0,数据库类型,Server Type,f,t,t
+msys_aaaa_aaae,,tblConnectString,谭夫有,2018-08-10,aaa,,,,数据库库连接字符串,1,连接字符串,Connect String,f,t,t
+msys_aaaa_aaak,,,谭夫有,2018-09-18,aaa,,,,报表中的非绑定控件,1,报表控件,Report Control,f,t,f
+msys_aaaa_aaaf,,,谭夫有,2018-09-18,aaa,,,,在窗体的中使用的非绑定控件,1,窗体控件,Window Control,f,t,f
+msys_aaaa_aaan,,tblGroupsInTab,谭夫有,2018-08-15,aaa,,,,功能区组的定义,2,组定义,Groups In Tab,f,t,t
+msys_aaaa_aaag,,tblViewName,谭夫有,2018-08-13,aaa,,,,视图名称和定义,0,视图名,Query Name,f,t,t
+msys_aaaa_aaaj,,tblQueryDesign,谭夫有,2018-08-15,aaa,,,,查询(视图）设计,1,查询设计,Query Design,f,t,t
+msys_aaaa_aaao,,tblControlsInGroup,谭夫有,2018-08-15,aaa,,,,控件定义,3,控件定义,Controls In Group,f,t,t
+msys_aaaa_aaas,,tblCallbackFunction,谭夫有,2018-08-15,aaa,,,,控件的回调函数定义,4,回调函数定义,Callback Function In Controller,f,t,t
+msys_aaaa_aaau,,tblRoleControlManagement,谭夫有,2018-08-15,,,,,控件权限管理,4,控件权限管理,Role Controller Management,f,t,t
+msys_aaaa_aaav,,tblRoleTableManagement,谭夫有,2018-08-15,,,,,表格权限管理,1,表格权限管理,Role Table Management,f,t,t
+msys_aaaa_aaaw,,tblRoleColumnManagement,谭夫有,2018-08-15,aaa,,,,字段权限管理,2,字段权限管理,Role Field Management,f,t,t
+msys_aaaa_aaax,,tblLog,谭夫有,2018-08-15,,,,,登陆记录,2,登陆记录,Log,f,t,t
+dict_aaaa_aabs,迅达内部,Servitel Controller Code,谭夫有,2018-07-11,aaa,,,,Servitel Controller Code in message code,0,Servital 控制器代码,servitel_controller_code,f,t,t
+dict_aaaa_aabe,迅达内部,Machine Types,谭夫有,2018-05-17,aaa,,,,曳引机型号,0,曳引机类型,traction_machine_types,f,t,t
+dict_aaaa_aabp,迅达内部,t_SCSB,谭夫有,2018-06-22,aaa,,,,SCSB标准化中间转化表,2,SCSB中间表,scsb_code_standardization,f,t,t
+dict_aaaa_aabj,迅达内部,Gear_Type,谭夫有,2018-06-09,aaa,,,,齿轮类型,0,齿轮类型,gear_type,f,t,t
+dict_aaaa_aabf,迅达内部,Controller Types,谭夫有,2018-05-17,aaa,,,,设备控制器类型,0,控制器类型,controller_Types,f,t,t
+dict_aaaa_aabr,迅达内部,Servitel Message and Bionic Message,谭夫有,2018-07-10,,,,,Servitel and Bionic Message定义,2,Message定义,message_defination,f,t,t
+dict_aaaa_aabg,迅达内部,Drive Type,谭夫有,2018-05-17,aaa,,,,驱动器类型,0,驱动器类型,drive_type,f,t,t
+dict_aaaa_aaav,迅达内部,t_equipment,谭夫有,2018-04-12,aaa,,,,产品生产主体信息,3,产品生产主体信息,product_supplier,f,t,t
+dict_aaaa_aaat,迅达内部,召回错误类型SCS code C,谭夫有,2018-04-10,aaa,,,,召回错误类型,0,召回错误类型,type_of_failure,f,t,t
+dict_aaaa_aaas,迅达内部,召回组件代码SCS code B,谭夫有,2018-04-10,aaa,,,,召回组件内容描述,1,召回组件Code,condition_and_defective_component,f,t,t
+dict_aaaa_aabd,迅达内部,Environment,谭夫有,2018-05-17,aaa,,,,电梯的安装环境,1,电梯所在环境,environment,f,t,t
+dict_aaaa_aabk,迅达内部,t_job_status,谭夫有,2018-06-21,aaa,,,,Callback状态标准化中间转换表,1,CBK状态中间表,cbk_status_code_standardization,f,t,t
+dict_aaaa_aabl,迅达内部,t_scsag,谭夫有,2018-06-21,aaa,,,,SCSAG标准化中间转换表,1,SCSAG中间表,scsag_code_standardization,f,t,t
+dict_aaaa_aabm,迅达内部,t_scsbg,谭夫有,2018-06-21,aaa,,,,SCSBG标准化中间转换表,1,SCSBG中间表,scsbg_code_standardization,f,t,t
+dict_aaaa_aabn,迅达内部,t_scsc,谭夫有,2018-06-22,aaa,,,,SCSC标准化中间转换表,1,SCSC中间表,scsc_code_standardization,f,t,t
+dict_aaaa_aabh,迅达内部,Car_Door_Type,谭夫有,2018-05-17,aaa,,,,轿厢门的类型,0,门类型,car_door_type,f,t,t
+dict_aaaa_aabq,迅达内部,OSC_Bionic_equnr,谭夫有,2018-07-10,aaa,,,,装配Bionic的设备的列表,3,Bionic设备列表,equipment_with_bionic,f,t,t
+dict_aaaa_aaau,迅达内部,Callback 状态,谭夫有,2018-04-12,aaa,,,,当前Callback的状态,0,召回状态,callback_status,f,t,t
+dict_aaaa_aaaw,迅达内部,技术员表,谭夫有,2018-04-13,aaa,,,,维修人员列表,0,技术员表,technician_list,f,t,t
+oper_aaaa_aaaa,迅达内部,t_job_cbk,谭夫有,2018-04-13,aaa,,,,召回列表,3,召回记录,callback,f,t,t
+dict_aaaa_aabt,迅达内部,controller_severity_code,谭夫有,2018-07-11,aaa,,,,RMP Message Code的定义,1,Message Code的定义,message_code_defination,f,t,t
+oper_aaaa_aaac,迅达内部,data.t_rm_message_extra_tripcount_osc,谭夫有,2018-07-10,,,,,电梯累计运行次数,3,电梯累计运行次数,cumulative_trip_count,f,t,t
+dict_aaaa_aabo,迅达内部,t_SCSA,谭夫有,2018-06-22,aaa,,,,SCSA标准化中间转换表,2,SCSA中间表,scsa_code_standardization,f,t,t
+oper_aaaa_aaad,迅达内部,data.t_rm_message_extra_triptime_osc,谭夫有,2018-07-11,,,,,电梯累计运行时间,3,电梯累计运行时间,cumulative_trip_time,f,t,t
+oper_aaaa_aaae,迅达内部,data.t_rm_message_bionic_osc_4y_error,谭夫有,2018-07-11,,,,,电梯error消息记录,3,电梯error消息记录,error_message_log,f,t,t
+oper_aaaa_aaaf,迅达内部,data.t_rm_message_bionic_osc_4y_alarm,谭夫有,2018-07-11,,,,,电梯alarm消息记录,3,电梯alarm消息记录,alarm_message_log,f,t,t
+oper_aaaa_aaag,迅达内部,data.t_rm_message_bionic_osc_4y_breakdown,谭夫有,2018-07-11,,,,,电梯breakdown消息记录,3,电梯breakdown消息记录,breakdown_message_log,f,t,t
+oper_aaaa_aaah,迅达内部,衍生表,谭夫有,2018-07-12,,,,,一段时间内的运行次数,3,电梯运行次数,trip_count,f,t,t
+dict_aaaa_aaai,迅达内部,产品基本信息,谭夫有,2017-09-07,aaa,,,,产品的基本信息，是电梯还是扶梯，及型号和使用状态,2,产品基本信息,product_basic_information,f,t,t
+msys_aaaa_aaad,,tblSqlLangrageOfServerType,谭夫有,2018-08-10,,aaa,aab,,不同数据库的SQL语句,1,不同数据库的SQL语句,SQL Langrage Of Server Type,f,t,t

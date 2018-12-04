@@ -1,0 +1,150 @@
+aaa,aab,aac,aad,aae,aaf,aag,aah,aai,aaj,aak,aal,aam,aan,aao,aap,aaq,aar,aas
+view_saaa_aaaa.aaa,aaa,msys_aaaa_aaal.aaa,Ribbon ID,功能区.功能区ID,Ribbon.Ribbon ID,msys_aaaa_aaal,aaa,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aab,aab,msys_aaaa_aaal.aab,Ribbon Name,功能区.功能区名称,Ribbon.Ribbon Name,msys_aaaa_aaal,aab,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aac,aac,msys_aaaa_aaal.aac,Ribbon XML,功能区.功能区XML,Ribbon.Ribbon XML,msys_aaaa_aaal,aac,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aad,aad,msys_aaaa_aaam.aaa,Tab ID,选项卡定义.选项卡ID,Tabs In Ribbon.Tab ID,msys_aaaa_aaam,aaa,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aae,aae,msys_aaaa_aaam.aab,English Name,选项卡定义.英文释义,Tabs In Ribbon.English Name,msys_aaaa_aaam,aab,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aaf,aaf,msys_aaaa_aaam.aac,Chinese Name,选项卡定义.中文释义,Tabs In Ribbon.Chinese Name,msys_aaaa_aaam,aac,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aag,aag,msys_aaaa_aaan.aaa,Group ID,组定义.组ID,Groups In Tab.Group ID,msys_aaaa_aaan,aaa,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aah,aah,msys_aaaa_aaan.aab,English Name,组定义.英文释义,Groups In Tab.English Name,msys_aaaa_aaan,aab,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aai,aai,msys_aaaa_aaan.aac,Chinese Name,组定义.中文释义,Groups In Tab.Chinese Name,msys_aaaa_aaan,aac,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aaj,aaj,msys_aaaa_aaao.aaa,Control ID,控件定义.控件ID,Controls In Group.Control ID,msys_aaaa_aaao,aaa,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aak,aak,msys_aaaa_aaao.aab,English Name,控件定义.英文释义,Controls In Group.English Name,msys_aaaa_aaao,aab,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aal,aal,msys_aaaa_aaao.aac,Chinese Name,控件定义.中文释义,Controls In Group.Chinese Name,msys_aaaa_aaao,aac,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aam,aam,msys_aaaa_aaao.aae,Control Type,控件定义.控件类型,Controls In Group.Control Type,msys_aaaa_aaao,aae,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aan,aan,msys_aaaa_aaas.aaa,Callback Function ID,回调函数定义.回调函数ID,Callback Function In Controller.Callback Function ID,msys_aaaa_aaas,aaa,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaaa.aao,aao,msys_aaaa_aaas.aac,Callback Function Name,回调函数定义.回调函数名,Callback Function In Controller.Callback Function Name,msys_aaaa_aaas,aac,,,0,t,,,,,,,view_saaa_aaaa
+view_saaa_aaak.aaa,aaa,view_saaa_aaaj.aaa,Table ID,未知层级的表.Table ID,Table No Layer.Table ID,view_saaa_aaaj,aaa,,,0,t,,,,,,,view_saaa_aaak
+view_saaa_aaak.aab,aab,view_saaa_aaaj.aae,Referance Table,未知层级的表.Referance Table,Table No Layer.Referance Table,view_saaa_aaaj,aae,,,0,t,,,,,,,view_saaa_aaak
+view_saaa_aaak.aac,aac,view_saaa_aaaj.aad,Higher Table Layer,未知层级的表.Table Layer,Table No Layer.Table Layer,view_saaa_aaaj,aad,,,0,t,,,,,,,view_saaa_aaak
+view_saaa_aaak.aad,aad,view_saaa_aaai.aab,Referance Table Layer,已知层级的表.Table Layer,Table Layer.Table Layer,view_saaa_aaai,aab,,,0,t,,,,,,,view_saaa_aaak
+view_saaa_aaal.aaa,aaa,view_saaa_aaak.aaa,Table ID,设置表的层级.Table ID,Set Table Layer.Table ID,view_saaa_aaak,aaa,,GROUP BY,0,t,,,,,,,view_saaa_aaal
+view_saaa_aaal.aab,aab,COUNT(view_saaa_aaak.aad),COUNT_of_Referance Table Layer,设置表的层级.Referance Table Layer,Set Table Layer.Referance Table Layer,view_saaa_aaak,aad,,COUNT,0,t,,,,,,,view_saaa_aaal
+view_saaa_aaal.aac,aac,COUNT(view_saaa_aaak.aaa),COUNT_of_Table ID,设置表的层级.Table ID,Set Table Layer.Table ID,view_saaa_aaak,aaa,,COUNT,0,t,,,,,,,view_saaa_aaal
+view_saaa_aaam.aaa,aaa,"'<group id=""' || msys_aaaa_aaan.aaa || '"" label=""' || msys_aaaa_aaan.aab || '"">'",group_begin,组定义.组ID,Groups In Tab.Group ID,msys_aaaa_aaan,aaa,,,0,t,,,,,,,view_saaa_aaam
+view_saaa_aaam.aab,aab,'</group>',group_end,组定义.英文释义,Groups In Tab.English Name,msys_aaaa_aaan,aab,,,0,t,,,,,,,view_saaa_aaam
+view_saaa_aaam.aac,aac,msys_aaaa_aaan.aad,Tab ID,组定义.选项卡ID,Groups In Tab.Tab ID,msys_aaaa_aaan,aad,,,0,t,,,,,,,view_saaa_aaam
+view_saaa_aaam.aad,aad,msys_aaaa_aaan.aaa,Group ID,组定义.组ID,Groups In Tab.Group ID,msys_aaaa_aaan,aaa,,,0,t,,,,,,,view_saaa_aaam
+view_saaa_aaam.aae,aae,'English',Language,功能区一览.Chinese Name,All Ribbons View.Chinese Name,view_saaa_aaaa,aaf,,,0,t,,,,,,,view_saaa_aaam
+view_saaa_aaan.aaa,aaa,msys_aaaa_aaaa.aaa,Table ID,表名.表ID,Table Name.Table ID,msys_aaaa_aaaa,aaa,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aab,aab,msys_aaaa_aaaa.aac,Original Table Name,表名.原始表名,Table Name.Original Table Name,msys_aaaa_aaaa,aac,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aac,aac,msys_aaaa_aaaa.aaj,Table Description,表名.表内容描述,Table Name.Table Description,msys_aaaa_aaaa,aaj,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aad,aad,msys_aaaa_aaaa.aad,Created By,表名.表结构创建人,Table Name.Created By,msys_aaaa_aaaa,aad,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aae,aae,msys_aaaa_aaaa.aae,Created On,表名.创建时间,Table Name.Created On,msys_aaaa_aaaa,aae,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aaf,aaf,msys_aaaa_aaaa.aak,Table Layer,表名.表的层级,Table Name.Table Layer,msys_aaaa_aaaa,aak,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aag,aag,msys_aaaa_aaaf.aab,Selected,表格创建情况.选中,Remote Table Status.Selected,msys_aaaa_aaaf,aab,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aah,aah,msys_aaaa_aaaf.aac,Created,表格创建情况.已创建,Remote Table Status.Created,msys_aaaa_aaaf,aac,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaan.aai,aai,msys_aaaa_aaaf.aad,Imported,表格创建情况.已导入,Remote Table Status.Imported,msys_aaaa_aaaf,aad,,,0,t,,,,,,,view_saaa_aaan
+view_saaa_aaao.aaa,aaa,msys_aaaa_aaaa.aaa,Table ID,表名.表ID,Table Name.Table ID,msys_aaaa_aaaa,aaa,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aab,aab,msys_aaaa_aaaa.aal || '.' || msys_aaaa_aaab.aai,Chinese Table And Field Name,表名.中文释义,Table Name.Chinese Name,msys_aaaa_aaaa,aal,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aac,aac,msys_aaaa_aaaa.aam || '.' || msys_aaaa_aaab.aah,English Table And Field Name,表结构.英文释义,Table Struction.English Name,msys_aaaa_aaab,aah,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaaj.aab,aab,msys_aaaa_aaab.aab,Field Code,表结构.字段代码,Table Struction.Field Code,msys_aaaa_aaab,aab,,,0,t,,,,,,,view_saaa_aaaj
+view_saaa_aaaj.aac,aac,msys_aaaa_aaab.aaj,Referance Field,表结构.字段来源,Table Struction.Referance Field,msys_aaaa_aaab,aaj,,,0,t, IS NOT NULL,,,,,,view_saaa_aaaj
+view_saaa_aaaj.aad,aad,msys_aaaa_aaaa.aak,Table Layer,表名.表的层级,Table Name.Table Layer,msys_aaaa_aaaa,aak,,,0,t,-1,,,,,,view_saaa_aaaj
+view_saaa_aaaj.aae,aae,"left(msys_aaaa_aaab.aaj,14)",Referance Table,表结构.字段来源,Table Struction.Referance Field,msys_aaaa_aaab,aaj,left,,0,t,,,,,,,view_saaa_aaaj
+view_saaa_aaao.aad,aad,msys_aaaa_aaaa.aaa || '.' || msys_aaaa_aaab.aab,Table ID and Field Code,表结构.字段代码,Table Struction.Field Code,msys_aaaa_aaab,aab,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aae,aae,msys_aaaa_aaab.aab,Field Code,表结构.字段代码,Table Struction.Field Code,msys_aaaa_aaab,aab,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aaf,aaf,msys_aaaa_aaab.aaj,Referance Field,表结构.字段来源,Table Struction.Referance Field,msys_aaaa_aaab,aaj,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aag,aag,msys_aaaa_aaab.aai,Chinese Name,表结构.中文释义,Table Struction.Chinese Name,msys_aaaa_aaab,aai,,,0,t,!='冗余',,,,,,view_saaa_aaao
+view_saaa_aaao.aah,aah,msys_aaaa_aaab.aah,English Name,表结构.英文释义,Table Struction.English Name,msys_aaaa_aaab,aah,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aai,aai,msys_aaaa_aaab.aac,Field Type,表结构.字段类型,Table Struction.Field Type,msys_aaaa_aaab,aac,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aaj,aaj,msys_aaaa_aaab.aad,Field Width,表结构.字段宽度,Table Struction.Field Width,msys_aaaa_aaab,aad,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aak,aak,msys_aaaa_aaab.aae,Precision,表结构.精度,Table Struction.Precision,msys_aaaa_aaab,aae,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aal,aal,msys_aaaa_aaab.aak,Constraint,表结构.约束,Table Struction.Constraint,msys_aaaa_aaab,aak,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aam,aam,msys_aaaa_aaaa.aak,Table Layer,表名.表的层级,Table Name.Table Layer,msys_aaaa_aaaa,aak,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aan,aan,msys_aaaa_aaaa.aaf,Primary Key,表名.主键字段,Table Name.Primary Key,msys_aaaa_aaaa,aaf,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaao.aao,aao,msys_aaaa_aaab.aaf,Index Type,表结构.索引顺序,Table Struction.Index Type,msys_aaaa_aaab,aaf,,,0,t,,,,,,,view_saaa_aaao
+view_saaa_aaap.aaa,aaa,msys_aaaa_aaaj.aab,select_part,查询设计.字段代码,Query Design.Field Code,msys_aaaa_aaaj,aab,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aab,aab,msys_aaaa_aaaj.aah,group_part,查询设计.被选择的字段,Query Design.Selected Field,msys_aaaa_aaaj,aah,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aac,aac,msys_aaaa_aaaj.aak,order_part,查询设计.排序,Query Design.Order,msys_aaaa_aaaj,aak,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aad,aad,msys_aaaa_aaaj.aam,having_part,查询设计.条件,Query Design.WHERE_HAVING,msys_aaaa_aaaj,aam,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aae,aae,msys_aaaa_aaaj.aam,where_part,查询设计.条件,Query Design.WHERE_HAVING,msys_aaaa_aaaj,aam,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aaf,aaf,msys_aaaa_aaaj.aan,having_or_part,查询设计.或,Query Design.OR,msys_aaaa_aaaj,aan,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aag,aag,msys_aaaa_aaaj.aan,where_or_part,查询设计.或,Query Design.OR,msys_aaaa_aaaj,aan,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aah,aah,msys_aaaa_aaaj.aao,having_or2_part,查询设计.或2,Query Design.OR2,msys_aaaa_aaaj,aao,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aai,aai,msys_aaaa_aaaj.aao,where_or2_part,查询设计.或2,Query Design.OR2,msys_aaaa_aaaj,aao,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aaj,aaj,msys_aaaa_aaaj.aap,having_or3_part,查询设计.或3,Query Design.OR3,msys_aaaa_aaaj,aap,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aak,aak,msys_aaaa_aaaj.aap,where_or3_part,查询设计.或3,Query Design.OR3,msys_aaaa_aaaj,aap,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aal,aal,msys_aaaa_aaaj.aaq,having_or4_part,查询设计.或4,Query Design.OR4,msys_aaaa_aaaj,aaq,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aam,aam,msys_aaaa_aaaj.aaq,where_or4_part,查询设计.或4,Query Design.OR4,msys_aaaa_aaaj,aaq,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aan,aan,msys_aaaa_aaaj.aar,having_or5_part,查询设计.或5,Query Design.OR5,msys_aaaa_aaaj,aar,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aao,aao,msys_aaaa_aaaj.aar,where_or5_part,查询设计.或5,Query Design.OR5,msys_aaaa_aaaj,aar,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaap.aap,aap,msys_aaaa_aaaj.aas,View ID,查询设计.视图ID,Query Design.View ID,msys_aaaa_aaaj,aas,,,0,t,,,,,,,view_saaa_aaap
+view_saaa_aaaq.aaa,aaa,msys_aaaa_aaah.aab,Role Name,角色定义.角色名,Role.Role Name,msys_aaaa_aaah,aab,,,0,t,,,,,,,view_saaa_aaaq
+view_saaa_aaaq.aab,aab,msys_aaaa_aaah.aac,Role Description,角色定义.角色描述,Role.Role Description,msys_aaaa_aaah,aac,,,0,t,,,,,,,view_saaa_aaaq
+view_saaa_aaaq.aac,aac,msys_aaaa_aaat.aab,Select,角色创建情况.选中,Remote Role Status.Select,msys_aaaa_aaat,aab,,,0,t,,,,,,,view_saaa_aaaq
+view_saaa_aaaq.aad,aad,msys_aaaa_aaat.aac,Created,角色创建情况.已创建,Remote Role Status.Created,msys_aaaa_aaat,aac,,,0,t,,,,,,,view_saaa_aaaq
+view_saaa_aaar.aaa,aaa,msys_aaaa_aaax.aaa,User Name,登陆记录.用户名,Log.User Name,msys_aaaa_aaax,aaa,,,0,t,,,,,,,view_saaa_aaar
+view_saaa_aaar.aab,aab,msys_aaaa_aaai.aab,Password,用户.密码,User.Password,msys_aaaa_aaai,aab,,,0,t,,,,,,,view_saaa_aaar
+view_saaa_aaar.aac,aac,msys_aaaa_aaai.aad,Living,用户.是否存活,User.Living,msys_aaaa_aaai,aad,,,0,t, =,,,,,,view_saaa_aaar
+view_saaa_aaar.aad,aad,msys_aaaa_aaax.aab,Date Time,登陆记录.日期时间,Log.Date Time,msys_aaaa_aaax,aab,,,0,t,,,,,,,view_saaa_aaar
+view_saaa_aaar.aae,aae,msys_aaaa_aaai.aac,Role ID,用户.角色ID,User.Role ID,msys_aaaa_aaai,aac,,,0,t,,,,,,,view_saaa_aaar
+view_saaa_aaas.aaa,aaa,view_saaa_aaar.aaa,User Name,用户登陆记录.User Name,Login.User Name,view_saaa_aaar,aaa,,,0,t,,,,,,,view_saaa_aaas
+view_saaa_aaas.aab,aab,msys_aaaa_aaau.aab,Control ID,控件权限管理.控件ID,Role Controller Management.Control ID,msys_aaaa_aaau,aab,,,0,t,,,,,,,view_saaa_aaas
+view_saaa_aaas.aac,aac,msys_aaaa_aaau.aac,Apply,控件权限管理.应用,Role Controller Management.Apply,msys_aaaa_aaau,aac,,,0,t,,,,,,,view_saaa_aaas
+view_saaa_aaat.aaa,aaa,msys_aaaa_aaah.aab,Role Name,角色定义.角色名,Role.Role Name,msys_aaaa_aaah,aab,,,0,t,,,,,,,view_saaa_aaat
+view_saaa_aaat.aab,aab,msys_aaaa_aaah.aad,Login,角色定义.可登入,Role.Login,msys_aaaa_aaah,aad,,,0,t,,,,,,,view_saaa_aaat
+view_saaa_aaat.aac,aac,msys_aaaa_aaah.aae,Create Role,角色定义.可创建角色,Role.Create Role,msys_aaaa_aaah,aae,,,0,t,,,,,,,view_saaa_aaat
+view_saaa_aaat.aad,aad,msys_aaaa_aaah.aaf,Password,角色定义.密码,Role.Password,msys_aaaa_aaah,aaf,,,0,t,,,,,,,view_saaa_aaat
+view_saaa_aaau.aaa,aaa,view_saaa_aaao.aaa,Table ID,查询设计.Table ID,Query Design Ref.Table ID,view_saaa_aaao,aaa,,,0,t,,,,,,,view_saaa_aaau
+view_saaa_aaau.aab,aab,"left(view_saaa_aaao.aaf,14)",Referance Table,查询设计.Referance Field,Query Design Ref.Referance Field,view_saaa_aaao,aaf,left,,0,t,,,,,,,view_saaa_aaau
+view_saaa_aaau.aac,aac,view_saaa_aaao.aad,Table ID and Field Code,查询设计.Table ID and Field Code,Query Design Ref.Table ID and Field Code,view_saaa_aaao,aad,,,0,t,,,,,,,view_saaa_aaau
+view_saaa_aaau.aad,aad,view_saaa_aaao.aaf,Referance Field,查询设计.Referance Field,Query Design Ref.Referance Field,view_saaa_aaao,aaf,,,0,t, IS NOT NULL,,,,,,view_saaa_aaau
+view_saaa_aaah.aab,aab,msys_aaaa_aaaa.aak,Table Layer,表名.表的层级,Table Name.Table Layer,msys_aaaa_aaaa,aak,,,0,t,,,,,,,view_saaa_aaah
+view_saaa_aaah.aac,aac,msys_aaaa_aaaj.aas,View ID,查询设计.视图ID,Query Design.View ID,msys_aaaa_aaaj,aas,,,0,t,,,,,,,view_saaa_aaah
+view_saaa_aaai.aaa,aaa,msys_aaaa_aaaa.aaa,Table ID,表名.表ID,Table Name.Table ID,msys_aaaa_aaaa,aaa,,,0,t,,,,,,,view_saaa_aaai
+view_saaa_aaai.aab,aab,msys_aaaa_aaaa.aak,Table Layer,表名.表的层级,Table Name.Table Layer,msys_aaaa_aaaa,aak,,,0,t,!=(-1),,,,,,view_saaa_aaai
+view_saaa_aaaj.aaa,aaa,msys_aaaa_aaaa.aaa,Table ID,表名.表ID,Table Name.Table ID,msys_aaaa_aaaa,aaa,,,0,t,,,,,,,view_saaa_aaaj
+view_saaa_aaau.aae,aae,view_saaa_aaao.aad,Joining Name,查询设计.Table ID and Field Code,Query Design Ref.Table ID and Field Code,view_saaa_aaao,aad,,,0,t,,,,,,,view_saaa_aaau
+view_saaa_aaav.aaa,aaa,msys_aaaa_aaam.aaa,tab_begin,选项卡定义.选项卡ID,Tabs In Ribbon.Tab ID,msys_aaaa_aaam,aaa,,,0,t,,,,,,,view_saaa_aaav
+view_saaa_aaav.aab,aab,msys_aaaa_aaam.aab,tab_end,选项卡定义.英文释义,Tabs In Ribbon.English Name,msys_aaaa_aaam,aab,,,0,t,,,,,,,view_saaa_aaav
+view_saaa_aaav.aac,aac,msys_aaaa_aaam.aad,Ribbon ID,选项卡定义.功能区ID,Tabs In Ribbon.Ribbon ID,msys_aaaa_aaam,aad,,,0,t,,,,,,,view_saaa_aaav
+view_saaa_aaav.aad,aad,msys_aaaa_aaam.aaa,Tab ID,选项卡定义.选项卡ID,Tabs In Ribbon.Tab ID,msys_aaaa_aaam,aaa,,,0,t,,,,,,,view_saaa_aaav
+view_saaa_aaav.aae,aae,'English',Language,,,,,,,0,t,,,,,,,view_saaa_aaav
+view_saaa_aaaw.aaa,aaa,msys_aaaa_aaag.aaf,View Description,视图名.视图内容描述,View Name.View Description,msys_aaaa_aaag,aaf,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaaw.aab,aab,msys_aaaa_aaag.aaa,View ID,视图名.视图ID,View Name.View ID,msys_aaaa_aaag,aaa,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaaw.aac,aac,msys_aaaa_aaag.aac,Created On,视图名.视图创建时间,View Name.Created On,msys_aaaa_aaag,aac,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaaw.aad,aad,msys_aaaa_aaag.aab,Created By,视图名.视图创建人,View Name.Created By,msys_aaaa_aaag,aab,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaaw.aae,aae,msys_aaaa_aaag.aad,Chinese Name,视图名.中文释义,View Name.Chinese Name,msys_aaaa_aaag,aad,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaaw.aaf,aaf,msys_aaaa_aaak.aab,Select,查询创建情况.选中,Remote View Status.Select,msys_aaaa_aaak,aab,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaaw.aag,aag,msys_aaaa_aaak.aac,Created,查询创建情况.已创建,Remote View Status.Created,msys_aaaa_aaak,aac,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaaw.aah,aah,msys_aaaa_aaag.aag,View SQL,视图名.视图语句,View Name.View SQL,msys_aaaa_aaag,aag,,,0,t,,,,,,,view_saaa_aaaw
+view_saaa_aaac.aad,aad,msys_aaaa_aaao.aah,function_end,控件定义.窗体ID,Controls In Group.Window ID,msys_aaaa_aaao,aah,,,0,t,,,,,,,view_saaa_aaac
+view_saaa_aaac.aae,aae,msys_aaaa_aaas.aad,Control ID,回调函数定义.控件ID,Callback Function In Controller.Control ID,msys_aaaa_aaas,aad,,,0,t,,,,,,,view_saaa_aaac
+view_saaa_aaad.aaa,aaa,msys_aaaa_aaaa.aaa,Table ID,表名.表ID,Table Name.Table ID,msys_aaaa_aaaa,aaa,,,0,t,,,,,,,view_saaa_aaad
+view_saaa_aaad.aab,aab,msys_aaaa_aaaa.aag,No 1 Composite Index,表名.第一复合索引字段,Table Name.No 1 Composite Index,msys_aaaa_aaaa,aag,,,0,t,,,,,,,view_saaa_aaad
+view_saaa_aaad.aac,aac,msys_aaaa_aaaa.aah,No 2 Composite Index,表名.第二复合索引字段,Table Name.No 2 Composite Index,msys_aaaa_aaaa,aah,,,0,t,,,,,,,view_saaa_aaad
+view_saaa_aaad.aad,aad,msys_aaaa_aaaa.aai,No 3 Composite Index,表名.第三复合索引字段,Table Name.No 3 Composite Index,msys_aaaa_aaaa,aai,,,0,t,,,,,,,view_saaa_aaad
+view_saaa_aaad.aae,aae,msys_aaaa_aaaa.aal,Composite Index,表名.中文释义,Table Name.Chinese Name,msys_aaaa_aaaa,aal,,,0,t,,,,,,,view_saaa_aaad
+view_saaa_aaad.aaf,aaf,msys_aaaa_aaaa.aaf,Primary Key,表名.主键字段,Table Name.Primary Key,msys_aaaa_aaaa,aaf,,,0,t,,,,,,,view_saaa_aaad
+view_saaa_aaae.aaa,aaa,msys_aaaa_aaab.aal,Table ID,表结构.表ID,Table Struction.Table ID,msys_aaaa_aaab,aal,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aab,aab,msys_aaaa_aaab.aac,type_part,表结构.字段类型,Table Struction.Field Type,msys_aaaa_aaab,aac,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aac,aac,msys_aaaa_aaab.aad,width_precision,表结构.字段宽度,Table Struction.Field Width,msys_aaaa_aaab,aad,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aad,aad,msys_aaaa_aaab.aak,constraint_part,表结构.约束,Table Struction.Constraint,msys_aaaa_aaab,aak,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aae,aae,msys_aaaa_aaab.aaj,foreign_name,表结构.字段来源,Table Struction.Referance Field,msys_aaaa_aaab,aaj,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aaf,aaf,msys_aaaa_aaab.aaj,foreign_field,表结构.字段来源,Table Struction.Referance Field,msys_aaaa_aaab,aaj,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aag,aag,msys_aaaa_aaab.aaj,Referance Field,表结构.字段来源,Table Struction.Referance Field,msys_aaaa_aaab,aaj,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aah,aah,msys_aaaa_aaab.aab,Field Code,表结构.字段代码,Table Struction.Field Code,msys_aaaa_aaab,aab,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaae.aai,aai,msys_aaaa_aaab.aak,constraint_name,表结构.约束,Table Struction.Constraint,msys_aaaa_aaab,aak,,,0,t,,,,,,,view_saaa_aaae
+view_saaa_aaaf.aaa,aaa,msys_aaaa_aaab.aal,Table ID,表结构.表ID,Table Struction.Table ID,msys_aaaa_aaab,aal,,,0,t,,,,,,,view_saaa_aaaf
+view_saaa_aaaf.aab,aab,msys_aaaa_aaab.aag,Index Seq,表结构.索引类型,Table Struction.Index Seq,msys_aaaa_aaab,aag,,,0,t,,,,,,,view_saaa_aaaf
+view_saaa_aaaf.aac,aac,msys_aaaa_aaab.aaf,Index Type,表结构.索引顺序,Table Struction.Index Type,msys_aaaa_aaab,aaf,,,0,t,,,,,,,view_saaa_aaaf
+view_saaa_aaaf.aad,aad,msys_aaaa_aaab.aab,Index Name,表结构.字段代码,Table Struction.Field Code,msys_aaaa_aaab,aab,,,0,t,,,,,,,view_saaa_aaaf
+view_saaa_aaaf.aae,aae,msys_aaaa_aaab.aai,Index Field,表结构.中文释义,Table Struction.Chinese Name,msys_aaaa_aaab,aai,,,0,t,,,,,,,view_saaa_aaaf
+view_saaa_aaaf.aaf,aaf,msys_aaaa_aaab.aab,Field Code,表结构.字段代码,Table Struction.Field Code,msys_aaaa_aaab,aab,,,0,t,,,,,,,view_saaa_aaaf
+view_saaa_aaag.aaa,aaa,view_saaa_aaae.aaa,Table ID,建表字段SQL.Table ID,Field.Table ID,view_saaa_aaae,aaa,,,0,t,,,,,,,view_saaa_aaag
+view_saaa_aaag.aab,aab,view_saaa_aaae.aac,field_defination_part,建表字段SQL.width_precision,Field.width_precision,view_saaa_aaae,aac,,,0,t,,,,,,,view_saaa_aaag
+view_saaa_aaag.aac,aac,view_saaa_aaae.aai,constraint_defination_part,建表字段SQL.constraint_name,field.constraint_name,view_saaa_aaae,aai,,,0,t,,,,,,,view_saaa_aaag
+view_saaa_aaag.aad,aad,view_saaa_aaae.aag,foreign_key_part,建表字段SQL.Referance Field,Field.Referance Field,view_saaa_aaae,aag,,,0,t,,,,,,,view_saaa_aaag
+view_saaa_aaag.aae,aae,view_saaa_aaaf.aae,single_index_part,索引SQL.Index Field,Index SQL.Index Field,view_saaa_aaaf,aae,,,0,t,,,,,,,view_saaa_aaag
+view_saaa_aaag.aaf,aaf,view_saaa_aaae.aad,,建表字段SQL.constraint_part,Field.constraint_part,view_saaa_aaae,aad,,,0,f,,,,,,,view_saaa_aaag
+view_saaa_aaah.aaa,aaa,msys_aaaa_aaaj.aag,Selected Table,查询设计.被选择的表,Query Design.Selected Table,msys_aaaa_aaaj,aag,,,0,t,,,,,,,view_saaa_aaah
+view_saaa_aaab.aaa,aaa,"""<"" || msys_aaaa_aaap.aab || "" id="""""" || msys_aaaa_aaao.aaa || """""" label ="""""" || msys_aaaa_aaao.aab || """""" imageMso="""""" || msys_aaaa_aaao.aag || """""" """,control_begin,回调函数签名.控件类型,Callback Signature.Control Type,msys_aaaa_aaap,aab,,,0,t,,,,,,,view_saaa_aaab
+view_saaa_aaab.aab,aab,""" />""",control_end,控件定义.控件ID,Controls In Group.Control ID,msys_aaaa_aaao,aaa,,,0,t,,,,,,,view_saaa_aaab
+view_saaa_aaab.aac,aac,msys_aaaa_aaao.aad,Group ID,控件定义.中文释义,Controls In Group.Chinese Name,msys_aaaa_aaao,aac,,,0,t,,,,,,,view_saaa_aaab
+view_saaa_aaab.aad,aad,msys_aaaa_aaao.aaa,Control ID,控件定义.图标ID,Controls In Group.ImageMsoID,msys_aaaa_aaao,aag,,,0,t,,,,,,,view_saaa_aaab
+view_saaa_aaab.aae,aae,"""中文""",Language,控件定义.组ID,Controls In Group.Group ID,msys_aaaa_aaao,aad,,,0,t,,,,,,,view_saaa_aaab
+view_saaa_aaac.aaa,aaa,msys_aaaa_aaas.aaa,function_start,回调函数定义.回调函数ID,Callback Function In Controller.Callback Function ID,msys_aaaa_aaas,aaa,,,0,t,,,,,,,view_saaa_aaac
+view_saaa_aaac.aab,aab,msys_aaaa_aaap.aad,function_content,回调函数签名.签名,Callback Signature.Signature,msys_aaaa_aaap,aad,,,0,t,,,,,,,view_saaa_aaac
+view_saaa_aaac.aac,aac,msys_aaaa_aaas.aac,signature_parameter,回调函数定义.回调函数名,Callback Function In Controller.Callback Function Name,msys_aaaa_aaas,aac,,,0,t,,,,,,,view_saaa_aaac
+view_saaa_aaaw.aai,aai,msys_aaaa_aaag.aae,English Name,视图名.英文释义,View Name.English Name,msys_aaaa_aaag,aae,,,0,t,,,,,,,view_saaa_aaaw

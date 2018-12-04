@@ -1,0 +1,42 @@
+aaa,aab,aac
+1,rbnSwitchBoard,"<?xml version=""1.0"" encoding=""utf-8""?>
+<customUI xmlns=""http://schemas.microsoft.com/office/2006/01/customui"" onLoad=""onRibbonLoad"">
+<ribbon startFromScratch=""false""> 
+<tabs>
+<tab id=""tab_AAA"" label =""Main SwitchBoard"">
+<group id=""grp_AAA_AAA"" label =""Show"">
+<button id=""ctl_AAA_AAA_AAA"" label =""Show SwitchBoard"" imageMso=""MasterDocumentShow"" onAction=""clf_AAA_AAA_AAA_A"" getEnabled=""clf_AAA_AAA_AAA_B""  />
+</group>
+<group id=""grp_AAA_AAB"" label =""Generate"">
+<button id=""ctl_AAA_AAB_AAA"" label =""Generate APP"" imageMso=""MicrosoftAccess"" onAction=""clf_AAA_AAB_AAA_A"" getEnabled=""clf_AAA_AAB_AAA_B""  />
+</group>
+<group id=""grp_AAA_AAC"" label =""Help"">
+<button id=""ctl_AAA_AAC_AAA"" label =""About…"" imageMso=""DocumentTemplate"" onAction=""clf_AAA_AAC_AAA_A"" getEnabled=""clf_AAA_AAC_AAA_B""  />
+<button id=""ctl_AAA_AAC_AAB"" label =""Help"" imageMso=""Help"" onAction=""clf_AAA_AAC_AAB_A"" getEnabled=""clf_AAA_AAC_AAB_B""  />
+</group>
+</tab>
+</tabs>
+</ribbon>
+</customUI>"
+2,rbnUserRibbon,"<?xml version=""1.0"" encoding=""utf-8""?>
+<customUI xmlns=""http://schemas.microsoft.com/office/2006/01/customui"" onLoad=""onRibbonLoad"">
+<ribbon startFromScratch=""true""> 
+<tabs>
+<tab id=""tab_ABA"" label = ""Plot"">
+<group id=""grp_ABA_AAA"" label=""Single Chart"">
+<button id=""ctl_ABA_AAA_AAA"" label =""Chart"" imageMso=""Chart3DBarChart"" onAction=""clf_ABA_AAA_AAA_A"" getEnabled=""clf_ABA_AAA_AAA_B""  />
+</group>
+</tab>
+<tab id=""tab_ABB"" label = ""Connect Database"">
+<group id=""grp_ABB_AAA"" label=""Select Connection"">
+<button id=""ctl_ABB_AAA_AAA"" label =""Database"" imageMso=""DatabaseSqlServer"" onAction=""clf_ABB_AAA_AAA_A"" getEnabled=""clf_ABB_AAA_AAA_B""  />
+</group>
+</tab>
+<tab id=""tab_ABC"" label = ""Help"">
+<group id=""grp_ABC_AAA"" label=""About"">
+<button id=""ctl_ABC_AAA_AAA"" label =""About…"" imageMso=""Help"" onAction=""clf_ABC_AAA_AAA_A""  />
+</group>
+</tab>
+</tabs>
+</ribbon>
+</customUI>"

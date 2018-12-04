@@ -1,0 +1,151 @@
+﻿aaa,aab,aac
+1,索引类型,NONCLUSTERED
+1,索引类型,CLUSTERED
+1,索引类型,UNIQUE
+1,字段类型,NUMERIC
+1,字段类型,DECIMAL
+1,字段类型,CHAR
+1,字段类型,VARCHAR
+1,字段类型,INT
+1,字段类型,DATE
+1,字段类型,DATETIME
+2,字段类型,TEXT
+2,字段类型,REAL
+2,字段类型,DATETIME
+2,字段类型,MONEY
+2,索引类型,UNIQUE
+2,索引类型,PRIMARY
+2,索引类型,
+1,备注,NOT NULL
+1,备注,>
+1,备注,<
+1,备注,=
+2,备注,NOT NULL
+2,字段类型,BIT
+2,字段类型,FLOAT
+2,字段类型,SMALLINT
+2,字段类型,INTEGER
+2,字段类型,CHAR
+3,字段类型,SMALLINT
+3,字段类型,INTEGER
+3,字段类型,BIGINT
+3,字段类型,DECIMAL
+3,字段类型,NUMERIC
+3,字段类型,REAL
+3,字段类型,DOUBLE
+3,字段类型,SERIAL
+3,字段类型,BIGSERIAL
+3,字段类型,CHAR
+3,字段类型,VARCHAR
+3,字段类型,TEXT
+3,字段类型,TIMESTAMP
+3,字段类型,DATE
+3,字段类型,TIME
+3,字段类型,INTERVAL
+3,字段类型,BOOLEAN
+3,字段类型,MONEY
+3,索引类型,UNIQUE
+3,聚合函数,SUM
+3,聚合函数,COUNT
+3,聚合函数,AVG
+3,聚合函数,MAX
+3,聚合函数,MIN
+3,聚合函数,ARRAY_AGG
+3,聚合函数,BIT_AND
+3,聚合函数,BIT_OR
+3,聚合函数,BOOL_AND
+3,聚合函数,BOOL_OR
+3,聚合函数,EVERY
+3,聚合函数,STRING_AGG
+3,聚合函数,XMLAGG
+3,聚合函数,GROUP BY
+3,定义函数,abs
+3,定义函数,cbrt
+3,定义函数,ceil
+3,定义函数,ceiling
+3,定义函数,degrees
+3,定义函数,div
+3,定义函数,exp
+3,定义函数,floor
+3,定义函数,ln
+3,定义函数,log
+3,定义函数,mod
+3,定义函数,pi
+3,定义函数,power
+3,定义函数,radians
+3,定义函数,round
+3,定义函数,sign
+3,定义函数,sqrt
+3,定义函数,trunc
+3,定义函数,width_bucket
+3,定义函数,random
+3,定义函数,setseed
+3,定义函数,acos
+3,定义函数,asin
+3,定义函数,atan
+3,定义函数,atan2
+3,定义函数,cos
+3,定义函数,cot
+3,定义函数,sin
+3,定义函数,cos
+3,定义函数,|| :String concat oper
+3,定义函数,bit_length
+3,定义函数,char_length
+3,定义函数,lower
+3,定义函数,overlay :text replace
+3,定义函数,position
+3,定义函数,substring
+3,定义函数,trim
+3,定义函数,upper
+3,定义函数,ascii
+3,定义函数,btrim
+3,定义函数,chr
+3,定义函数,concat
+3,定义函数,concat_ws
+3,定义函数,convert
+3,定义函数,convert_from
+3,定义函数,convert_to
+3,定义函数,decode
+3,定义函数,encode
+3,定义函数,format
+3,定义函数,initcap
+3,定义函数,left
+3,定义函数,length
+3,定义函数,lpad
+3,定义函数,ltrim
+3,定义函数,md5
+3,定义函数,repeat
+3,定义函数,replace
+3,定义函数,right
+3,定义函数,rtrim
+3,定义函数,split_part
+3,定义函数,strpos
+3,定义函数,substr
+3,定义函数,to_ascii
+3,定义函数,to_hex
+3,定义函数,to_char :timestamp to string
+3,定义函数,to_char :interval to string
+3,定义函数,to_char :int to string
+3,定义函数,to_char :real to string
+3,定义函数,to_date :string to date
+3,定义函数,to_number :string to numeric
+3,定义函数,to_timestamp
+3,定义函数,age : timestamp1 - timestamp2
+3,定义函数,date_part : eg.'hour'
+3,定义函数,now
+3,窗口函数,row_number : OVER (PARTITION BY ORDER BY)
+3,窗口函数,rank : OVER (PARTITION BY ORDER BY)
+3,窗口函数,dense_rank : OVER (PARTITION BY ORDER BY)
+3,窗口函数,percent_rank : OVER (PARTITION BY ORDER BY)
+3,窗口函数,cume_dist : OVER (PARTITION BY ORDER BY)
+3,窗口函数,ntile : OVER (PARTITION BY ORDER BY)
+3,窗口函数,lag : OVER (PARTITION BY ORDER BY)
+3,窗口函数,lead : OVER (PARTITION BY ORDER BY)
+3,窗口函数,first_value : OVER (PARTITION BY ORDER BY)
+3,窗口函数,last_value : OVER (PARTITION BY ORDER BY)
+3,窗口函数,nth_value : OVER (PARTITION BY ORDER BY)
+3,窗口函数,sum : OVER (PARTITION BY ORDER BY)
+3,窗口函数,count : OVER (PARTITION BY ORDER BY)
+3,窗口函数,avg : OVER (PARTITION BY ORDER BY)
+3,窗口函数,max : OVER (PARTITION BY ORDER BY)
+3,窗口函数,min : OVER (PARTITION BY ORDER BY)

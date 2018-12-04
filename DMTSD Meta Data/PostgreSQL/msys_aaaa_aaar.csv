@@ -1,0 +1,51 @@
+aaa,aab,aac,aad,aae
+frm_SBD,Group Design,组设计,组设计,msys_aaaa_aaan
+frm_SBE,Control Design,控件设计,控件设计（组设计的子窗口）,msys_aaaa_aaao
+frm_AAD,,绘图,生成各种统计图形,
+frm_AAC,,关于,关于信息版权,
+frm_SZZ,Splash Screen,欢迎使用,欢迎使用界面,
+frm_SAA,Main Switchboard,软件框架主界面,软件框架主界面,
+frm_SAB,Frame About,软件框架关于,软件框架关于界面,
+frm_SAC,Frame Help,软件框架帮助,软件框架帮助文档,
+frm_SAD,Connect String,连接数据库,连接远程的数据库,msys_aaaa_aaae
+frm_SAE,Add Connect String,添加新数据库链接,编辑数据库链接,msys_aaaa_aaac
+frm_SBH,Window Design,窗口设计,窗口设计注册,msys_aaaa_aaar
+frm_SBF,Control Design,控件设计,控件设计,msys_aaaa_aaao
+frm_SAF,Add Connect String,添加新数据库链接,编辑数据库链接字符串,msys_aaaa_aaae
+frm_SAG,Add Server Type,添加新数据库类型,添加新的数据库类型,msys_aaaa_aaac
+frm_SAH,SQL Element Of Server Type,数据库的SQL元素,不同数据库的SQL元素,msys_aaaa_aaad
+frm_SAI,Create Table,创建表,创建表,msys_aaaa_aaaa
+frm_SAJ,Create Table Field,创建表的字段,创建表的字段,msys_aaaa_aaab
+frm_SBG,Callback Function Design,回调函数设计,回掉函数设计（控件设计子窗口）,msys_aaaa_aaas
+frm_SAK,Modify Table,修改表,修改表,msys_aaaa_aaaa
+frm_SAL,Modify Table Field,修改表的字段,修改表的字段,msys_aaaa_aaab
+frm_SBI,Software Config,软件配置信息,软件配置信息,
+frm_SAM,View Rigistered Table,查看已注册的表,查看已注册的表子窗口,msys_aaaa_aaaa
+frm_SAN,View Rigistered Table Struction,查看已注册表的结构,查看已注册表的结构子窗口,msys_aaaa_aaab
+frm_SAO,View Rigistered Table,查看已注册的表,查看已注册的表主窗口,msys_aaaa_aaaa
+frm_SAP,Operate Table By Batch,批量操作表,批量对表进行导入导出和创建,
+frm_SBJ,SubForm Of Software Config,软件配置信息的子窗口,软件配置信息的的子窗口,tblGlobalVar  
+frm_SAR,Query Design,查询设计,查询（视图）设计,msys_aaaa_aaag
+frm_SAS,SubForm Of Query Design,查询设计的子窗口,查询设计子窗口,msys_aaaa_aaaj
+frm_SAT,Modify Query Design,修改查询,修改查询,msys_aaaa_aaag
+frm_SBK,Role Management,权限管理,角色定义,msys_aaaa_aaah
+frm_SBL,Role Management With Control,控件的权限管理,通过功能区控件的权限管理,msys_aaaa_aaau
+frm_SAX,Operate Query By Batch,批量操作查询,批量对查询进行导入导出和创建,
+frm_SAZ,Ribbon Design,功能区设计,功能区设计,msys_aaaa_aaal
+frm_SBA,Tab Design,选项卡设计,选项卡设计（功能区设计的子窗口）,msys_aaaa_aaam
+frm_SBB,Tab Design,选项卡设计,选项卡设计,msys_aaaa_aaam
+frm_SBC,Group Design,组设计,组设计（选项卡设计的子窗口）,msys_aaaa_aaan
+frm_SBM,Role Management With Table,表格的权限管理,通过表格的权限管理,msys_aaaa_aaav
+frm_SBN,Role Management With Column,表格字段权限管理,通过表格字段的权限管理,msys_aaaa_aaaw
+frm_SBO,Operate Role By Batch,批量操作角色,批量对角色进行创建,
+frm_SBQ,Login,用户登陆,用户登陆系统记录,msys_aaaa_aaax
+frm_SBR,User Edit,添加用户,编辑用户信息,msys_aaaa_aaai
+frm_SAU,View Rigistered Query,查看已注册的查询,查看已注册的查询子窗口,msys_aaaa_aaag
+frm_SAV,View Rigistered Query Struction,查看已注册的查询结构,查看已注册的查询结构子窗口,msys_aaaa_aaaj
+frm_SAW,View Rigistered Query,查看已注册的查询,查看已注册的查询主窗口,msys_aaaa_aaag
+frm_SBS,Report Design,报表设计,报表设计注册,msys_aaaa_aaay
+frm_SBP,SubForm Of Operating Role By Batch,批量操作角色的子窗口,批量对角色进行创建子窗口,msys_aaaa_aaah
+frm_SAQ,SubForm Of Operating Table By Batch,批量操作表的子窗口,批量操作表的子窗口,msys_aaaa_aaaa
+frm_SAY,SubForm Of Operating Query By Batch,批量操作查询的子窗口,批量操作查询的子窗口,msys_aaaa_aaag
+frm_SBT,SubForm Of Window Design,窗口设计子窗口,窗口控件设计,msys_aaaa_aaaf
+frm_SBU,SubForm Of Report Design,报表设计子窗口,报表控件设计,msys_aaaa_aaak
