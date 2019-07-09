@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from io import BytesIO, StringIO
 
 import pandas as pd
@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import base64
 
 app = Flask(__name__)
+#app.debug = True
 
 @app.route('/')
 def hello_world():
@@ -80,6 +81,15 @@ def get_csv(tablename):
     return_string = csv_tablename_buffer.getvalue() + "##" + csv_tablestructure_buffer.getvalue() + "##" + csv_data_buffer.getvalue()
     
     return return_string
+
+@app.route('/send_data',methods=["POST"])
+def post_data():
+    if request.method=='POST':
+        table_name=request.form['table_name']
+        data_content=request.form['table_data']
+        print(table_name)
+        print(data_content)
+        return "Server received data!"
 
 if __name__ == '__main__':
     app.run()
