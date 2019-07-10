@@ -29,7 +29,7 @@ def get_plot(plotname):
     # img_base64 = base64.b64encode(img.getvalue()).decode('utf8')
     return img_buffer.getvalue()
 
-@app.route('/data/<tablename>')
+@app.route('/get_data/<tablename>')
 def get_csv(tablename):
     df_tablename_pd = pd.DataFrame(
             {'表名':['dict_aaaa_aaaa'],
@@ -78,18 +78,29 @@ def get_csv(tablename):
     df_tablestructure_pd.to_csv(csv_tablestructure_buffer, sep=";", index=False)
     df_data_pd.to_csv(csv_data_buffer, sep=";", index=False)
     
-    return_string = csv_tablename_buffer.getvalue() + "##" + csv_tablestructure_buffer.getvalue() + "##" + csv_data_buffer.getvalue()
+    return_string = "##".join([csv_tablename_buffer.getvalue(),
+    	csv_tablestructure_buffer.getvalue(),
+    	csv_data_buffer.getvalue()])
     
     return return_string
 
-@app.route('/send_data',methods=["POST"])
-def post_data():
-    if request.method=='POST':
-        table_name=request.form['table_name']
-        data_content=request.form['table_data']
-        print(table_name)
-        print(data_content)
-        return "Server received data!"
+@app.route('/send_data/<tablename>',methods=["POST"])
+def post_csv(tablename):
+	if request.method=='POST':
+		send_string = request.form['text'] 
+		send_string_list = send_string.split('##')
+		# Create buffer
+		csv_tablename_buffer = StringIO(send_string_list[0])
+		csv_tablestructure_buffer = StringIO(send_string_list[1])
+		csv_data_buffer = StringIO(send_string_list[2])
+
+		df_tablename_pd = pd.read_csv(csv_tablename_buffer, sep = ';')
+		df_tablestructure_pd = pd.read_csv(csv_tablestructure_buffer, sep = ';')
+		df_data_pd = pd.read_csv(csv_data_buffer, sep = ';')
+		#print(df_tablename_pd)   
+		#print(df_tablestructure_pd)
+		print(df_data_pd)    
+		return "Server received data!"
 
 if __name__ == '__main__':
     app.run()
