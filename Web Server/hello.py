@@ -6,16 +6,17 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import base64
+import os
 
 app = Flask(__name__)
-#app.debug = True
+# app.debug = True
 
 @app.route('/')
 def hello_world():
     return 'Hello World!'
 
-@app.route('/plot/<plotname>')
-def get_plot(plotname):
+@app.route('/get_image/<plotname>')
+def get_image(plotname):
     df_data_pd = pd.DataFrame(
             {'aaa': [1,2,3],
              'aab':[4,5,6]}
@@ -28,6 +29,30 @@ def get_plot(plotname):
     # img转义base64编码
     # img_base64 = base64.b64encode(img.getvalue()).decode('utf8')
     return img_buffer.getvalue()
+
+@app.route('/send_image/<plotname>', methods=["POST"])
+def send_image(plotname):
+	# print(os.getcwd())
+	if request.method=='POST':
+		# print("Posted image: {}".format(request.files['image']))
+		# image = request.files['image']
+		# images = {'image': image.read()}
+		# r = requests.post("http://127.0.0.1:8000/upload/", files=images)
+
+		# if r.ok:
+		# 	return "File uploaded!"
+		# else:
+		# 	return "Error uploading file!"
+
+		# img_buffer = BytesIO(request.files['image'])		
+		# with open(os.path.join(os.getcwd(),'test.png'), 'wb') as f:
+		# 	f.write(img_buffer.getvalue())
+
+		# img转义base64编码
+		# img_base64 = base64.b64encode(img.getvalue()).decode('utf8')
+		# print(type(request.files['image']))
+		request.files['image'].save(os.path.join(os.getcwd(),'test.png'))
+		return "Server received image!"
 
 @app.route('/get_data/<tablename>')
 def get_csv(tablename):

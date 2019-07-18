@@ -46,7 +46,7 @@ class DataToNeo4j(object):
         self.graph.run(CQL)
             
 if __name__=='__main__':
-    os.chdir("C:\\Users\\Fuyou Tan\\Documents\\develop\\AccessTool\ec3in1")
+    os.chdir("C:\\Users\\Fuyou Tan\\Documents\\develop\\AccessTool\\ec3in1")
     tbl_graph = DataToNeo4j(new_graph_database=True)
     
     tblTableName = pd.read_csv("Neo4j_files\\tblTableName_utf.csv")

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="onRibbonLoad">
+<ribbon startFromScratch="false"> 
+<tabs>
+<tab id="tab_AAA" label ="Main SwitchBoard">
+<group id="grp_AAA_AAA" label ="Show">
+<button id="ctl_AAA_AAA_AAA" label ="Show SwitchBoard" imageMso="MasterDocumentShow" onAction="clf_AAA_AAA_AAA_A" />
+</group>
+<group id="grp_AAA_AAB" label ="Connect">
+<button id="ctl_AAA_AAB_AAA" label ="Connect Database" imageMso="Connections" onAction="clf_AAA_AAB_AAA_A" />
+</group>
+<group id="grp_AAA_AAC" label ="Help">
+<button id="ctl_AAA_AAC_AAA" label ="About…" imageMso="DocumentTemplate" onAction="clf_AAA_AAC_AAA_A" />
+<button id="ctl_AAA_AAC_AAB" label ="Help" imageMso="Help" onAction="clf_AAA_AAC_AAB_A" />
+</group>
+</tab>
+</tabs>
+</ribbon>
+</customUI>
